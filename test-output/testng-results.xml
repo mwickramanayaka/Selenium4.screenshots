@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-07T00:53:31 IST" name="Default suite" finished-at="2021-07-07T00:53:56 IST" duration-ms="24861">
+    <groups>
+    </groups>
+    <test started-at="2021-07-07T00:53:31 IST" name="Default test" finished-at="2021-07-07T00:53:56 IST" duration-ms="24861">
+      <class name="screenshots.TakingScreenShots">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:screenshots.TakingScreenShots@96def03]" started-at="2021-07-07T00:53:31 IST" name="setUp" finished-at="2021-07-07T00:53:35 IST" duration-ms="3304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="screenShotofaElement()[pri:0, instance:screenshots.TakingScreenShots@96def03]" started-at="2021-07-07T00:53:35 IST" name="screenShotofaElement" description="Screenshot of a Section In a Page" finished-at="2021-07-07T00:53:37 IST" duration-ms="2404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShotofaElement -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:screenshots.TakingScreenShots@96def03]" started-at="2021-07-07T00:53:37 IST" name="tearDown" finished-at="2021-07-07T00:53:42 IST" duration-ms="4599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:screenshots.TakingScreenShots@96def03]" started-at="2021-07-07T00:53:42 IST" name="setUp" finished-at="2021-07-07T00:53:44 IST" duration-ms="2233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="screenShotofaPage()[pri:0, instance:screenshots.TakingScreenShots@96def03]" started-at="2021-07-07T00:53:44 IST" name="screenShotofaPage" description="Screenshot of a complete Page" finished-at="2021-07-07T00:53:47 IST" duration-ms="2768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShotofaPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:screenshots.TakingScreenShots@96def03]" started-at="2021-07-07T00:53:47 IST" name="tearDown" finished-at="2021-07-07T00:53:51 IST" duration-ms="4531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:screenshots.TakingScreenShots@96def03]" started-at="2021-07-07T00:53:51 IST" name="setUp" finished-at="2021-07-07T00:53:53 IST" duration-ms="2138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="screenShotofaSectionInaPage()[pri:0, instance:screenshots.TakingScreenShots@96def03]" started-at="2021-07-07T00:53:53 IST" name="screenShotofaSectionInaPage" description="Screenshot of a Section In a Page" finished-at="2021-07-07T00:53:56 IST" duration-ms="2489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShotofaSectionInaPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:screenshots.TakingScreenShots@96def03]" started-at="2021-07-07T00:53:56 IST" name="tearDown" finished-at="2021-07-07T00:53:56 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- screenshots.TakingScreenShots -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
