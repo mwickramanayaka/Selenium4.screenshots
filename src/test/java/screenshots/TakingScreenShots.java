@@ -42,8 +42,18 @@ public class TakingScreenShots {
 		TakesScreenshot ts = (TakesScreenshot)driver;
 		//take the screenshot and save it as src format
 		File src = ts.getScreenshotAs(OutputType.FILE);
+		
+		//create Screenshots folder and specify the destination
+		String destination = System.getProperty("user.dir")+"/Screnshots/" + "homePage" + ".png";
+		
 		//File type object initialized
-		File target = new File("Homepage.png");
+		File target = new File(destination);
+		
+		/*
+		If folder already there use this
+		File target = new File(".\\Screnshots\\homePage.png");
+		*/
+		
 		//copy src file to target file 
 		FileUtils.copyFile(src,target);
 
@@ -54,6 +64,7 @@ public class TakingScreenShots {
 
 		driver.get("https://www.ebay.com");
 
+		//Catch the section
 		WebElement pageSection = driver.findElement(By.xpath("//*[@id=\"destinations_list1\"]/ul"));
 
 		//Call method to highlight
@@ -61,9 +72,8 @@ public class TakingScreenShots {
 		
 		//take the screenshot and save it as src format
 		File src = pageSection.getScreenshotAs(OutputType.FILE);
-		//File type object initialized
-		File target = new File("SectionCategories.png");
-		//copy src file to target file 
+		String destination = System.getProperty("user.dir")+"/Screnshots/" + "pageSection" + ".png";
+		File target = new File(destination);
 		FileUtils.copyFile(src,target);
 
 	}
@@ -74,15 +84,10 @@ public class TakingScreenShots {
 		driver.get("https://www.ebay.com");
 
 		WebElement ElementLogo = driver.findElement(By.xpath("//*[@id=\"gh-la\"]"));
-
-		//Call method to highlight
 		highlightElement(ElementLogo,driver);
-		
-		//take the screenshot and save it as src format
 		File src = ElementLogo.getScreenshotAs(OutputType.FILE);
-		//File type object initialized
-		File target = new File("ElementLogo.png");
-		//copy src file to target file 
+		String destination = System.getProperty("user.dir")+"/Screnshots/" + "ElementLogo" + ".png";
+		File target = new File(destination);
 		FileUtils.copyFile(src,target);
 
 	}
