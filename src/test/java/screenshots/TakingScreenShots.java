@@ -70,6 +70,7 @@ public class TakingScreenShots {
 		//Call method to highlight
 		highlightElement(pageSection,driver);
 		
+		
 		//take the screenshot and save it as src format
 		File src = pageSection.getScreenshotAs(OutputType.FILE);
 		String destination = System.getProperty("user.dir")+"/Screnshots/" + "pageSection" + ".png";
