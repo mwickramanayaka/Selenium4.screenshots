@@ -81,7 +81,7 @@ public class TakingScreenShots {
 	@Test(description="Screenshot of a Section In a Page")
 	public void screenShotofaElement() throws IOException {
 
-		 driver.get("https://www.ebay.com");
+		driver.get("https://www.ebay.com");
 
 		WebElement ElementLogo = driver.findElement(By.xpath("//*[@id=\"gh-la\"]"));
 		highlightElement(ElementLogo,driver);
