@@ -78,7 +78,7 @@ public class TakingScreenShots {
 
 	}
 
-	 @Test(description="Screenshot of a Section In a Page")
+	@Test(description="Screenshot of a Section In a Page")
 	public void screenShotofaElement() throws IOException {
 
 		driver.get("https://www.ebay.com");
